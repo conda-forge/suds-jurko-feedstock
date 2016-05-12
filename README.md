@@ -5,7 +5,7 @@ Home: http://bitbucket.org/jurko/suds
 
 Package license: GNU Library or Lesser General Public License (LGPL)
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Lightweight SOAP client (Jurko's fork)
 
@@ -72,6 +72,11 @@ Current build status
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/suds-jurko-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/suds-jurko-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/suds-jurko-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/suds-jurko-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/suds-jurko-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/suds-jurko-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/suds-jurko/badges/version.svg)](https://anaconda.org/conda-forge/suds-jurko)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/suds-jurko/badges/downloads.svg)](https://anaconda.org/conda-forge/suds-jurko)
 
 
 Updating suds-jurko-feedstock
