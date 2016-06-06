@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/suds-jurko-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/suds-jurko-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/suds-jurko-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/suds-jurko-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/suds-jurko-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/suds-jurko-feedstock/branch/master)
