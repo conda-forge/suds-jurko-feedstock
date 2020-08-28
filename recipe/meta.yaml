@@ -7,10 +7,12 @@ package:
 source:
   url: https://pypi.io/packages/source/s/suds-jurko/suds-jurko-{{ version }}.tar.bz2
   sha256: 29edb72fd21e3044093d86f33c66cf847c5aaab26d64cb90e69e528ef014e57f
+  patches:
+    - 0001-Exclude-tests-from-installation.patch
 
 build:
-  number: 1002
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 1003
+  script: "{{ PYTHON }} -m pip install . -vvv"
 
 requirements:
   build:
@@ -28,12 +30,10 @@ test:
     - suds.transport
     - suds.umx
     - suds.xsd
-    - tests
-    - tests.external
 
 about:
   home: http://bitbucket.org/jurko/suds
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_file: LICENSE.txt
   summary: "Lightweight SOAP client (Jurko's fork)."
 
