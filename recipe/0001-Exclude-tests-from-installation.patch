@@ -1,0 +1,25 @@
+From eee9b431ae8ec4392b0684526cd0bbb5fbca918d Mon Sep 17 00:00:00 2001
+From: Chris Burr <christopher.burr@cern.ch>
+Date: Fri, 28 Aug 2020 09:56:23 +0200
+Subject: [PATCH] Exclude tests from installation
+
+---
+ setup.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/setup.py b/setup.py
+index 12bc3af..3631f37 100644
+--- a/setup.py
++++ b/setup.py
+@@ -167,7 +167,7 @@ setup(
+     keywords=["SOAP", "web", "service", "client"],
+     url=project_url,
+     download_url=download_url,
+-    packages=find_packages(),
++    packages=find_packages(exclude=["tests.*", "tests"]),
+ 
+     # 'maintainer' will be listed as the distribution package author.
+     # Warning: Due to a 'distribute' package defect when used with Python 3
+-- 
+2.27.0
+
