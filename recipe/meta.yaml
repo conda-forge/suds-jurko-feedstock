@@ -11,7 +11,7 @@ source:
     - 0001-Exclude-tests-from-installation.patch
 
 build:
-  number: 1003
+  number: 1004
   script: "{{ PYTHON }} -m pip install . -vvv"
 
 requirements:
